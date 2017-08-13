@@ -1,0 +1,42 @@
+* { margin: 0; padding: 0; }
+
+body {
+	background: #eee;
+	font-family: verdana;
+	font-size: 12px;
+}
+
+h1 {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+#restaurant-finder {
+	margin: 40px auto 0;
+	max-width: 500px;
+}
+
+#user-list {
+	margin-bottom: 40px;
+}
+
+#user-list li {
+	background: #fff;
+	padding: 10px;
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+#user-list li input {
+	margin-right: 5px;
+}
+
+#results .result {
+	background: #fff;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+#results .result .title {
+	font-weight: bold;
+}

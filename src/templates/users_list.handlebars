@@ -1,0 +1,8 @@
+<ul>
+	{{#each this}}
+		<li>
+			<input id="checkbox_{{@index}}" name="checkbox_{{@index}}" type="checkbox" value="{{@index}}" {{#if this.selected}}checked{{/if}} />
+			<label for="checkbox_{{@index}}">{{this.name}}</label>
+		</li>
+	{{/each}}
+</ul>

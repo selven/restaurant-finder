@@ -1,0 +1,12 @@
+{{#each this}}
+	<div class="result">
+		<span class="title">{{this.name}}</span>
+		<div class="users">
+			{{#each unhappy}}
+				<div>
+					{{name}} - {{reasons}}
+				</div>
+			{{/each}}
+		</div>
+	</div>
+{{/each}}
